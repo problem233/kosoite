@@ -1,0 +1,366 @@
+dict:
+  - word: ai
+    defn: （比[b]）更[q]
+    tags: [程度谓词]
+  - word: ada
+    defn: (X-t) 过去[q]；在[z]时间段之前[b]时间（[q]）
+    tags: [时态谓词]
+  - word: ahu
+    defn: (X-k) 在（[z]的）[b]面（外部、相邻）[q]；(X-k) 在（[z]的）外面[q]
+    tags: [方位谓词]
+  - word: aki
+    defn: (k-) [z]的家
+  - word: ama
+    defn: 尊敬地[q]
+    note: 敬语谓词，可用于名词性短语。
+  - word: ame
+    defn: 将来[q]；在[z]时间段之后[b]时间（[q]）
+    tags: [时态谓词]
+  - word: amo
+    defn: （在[b]中）最[q]
+    tags: [程度谓词]
+  - word: ana
+    defn: (k-) [b]除以[z]的商
+    tags: [数学运算]
+  - word: ani
+    defn: 做什么；(k-) 什么
+  - word: ano
+    defn: (k-) 北
+    tags: [方向名词]
+    rels:
+      反义词: [ui]
+  - word: apu
+    defn: 打、敲、撞[b]
+  - word: are
+    defn: (k-) 他、她、它
+    tags: [人称代词]
+  - word: ari
+    defn: 存在（于[b]）
+  - word: ati
+    defn: 小
+    rels:
+      反义词: [uga]
+  - word: atita
+    defn: (X-k) (k-) 星星
+  - word: ao
+    defn: (k-) 黑夜
+    tags: [时间名词]
+    rels:
+      反义词: [io]
+  - word: ayo
+    defn: （在[z]中）排名第[b]；（在[z]中）第[b]个做[q]
+  - word: ayu
+    defn: (k-) 周围、侧面
+    tags: [方向名词]
+  - word: azo
+    defn: 一定会[q]
+  - word: ego
+    defn: 现在[q]；在[z]时间段内（[q]）
+    tags: [时态谓词]
+  - word: ehe
+    defn: (k-) 前
+    tags: [方向名词]
+    rels:
+      反义词: [oro]
+  - word: ehi
+    defn: 有可能[q]
+  - word: eho
+    defn: (k-) 一天；（[z]历法的）[b]日
+    tags: [时间名词]
+  - word: ehopata
+    defn: (X-t) 昨天[q]
+    etym: kehoba tada
+  - word: ehu
+    defn: 虽然[b]发生了，但是[q]
+    rels:
+      相对词: [oma]
+  - word: emu
+    defn: (k-)（[b]品种的）树
+  - word: emusi
+    defn: (k-)（[b]品种的）树林
+    etym: kemuba zi
+  - word: ena
+    defn: 等于、就是[b]；(k-) [b]本身、自己
+  - word: ene
+    defn: (X-p) 拥有[b]
+  - word: epo
+    defn: (k-) 一小时；（[z]计时法的）[b]时
+    tags: [时间名词]
+  - word: era
+    defn: (k-) 西
+    tags: [方向名词]
+    rels:
+      反义词: [oo]
+  - word: eyo
+    defn: 坐
+  - word: ia
+    defn: 不[q]
+    tags: [逻辑连接词]
+  - word: idiki
+    defn: (X-k) 明亮
+  - word: ie
+    defn: (k-) 巢、窝、住房
+  - word: iga
+    defn: 希望、想要[q]
+  - word: igi
+    defn: 吃[b]
+  - word: igu
+    defn: (k-) [b]减[z]的差
+    tags: [数学运算]
+  - word: ihi
+    defn: (k-) 左
+    tags: [方向名词]
+    rels:
+      反义词: [owa]
+  - word: ihu
+    defn: (k-) 人（指一切智慧生物）
+  - word: ii
+    defn: （先[b]）然后[q]
+    tags: [描述过程的谓词]
+  - word: iite
+    defn: 符合逻辑；有逻辑地[q]
+  - word: ima
+    defn: (X-t) 正在[q]
+    tags: [体貌谓词]
+  - word: ime
+    defn: (k-)（[z]身上长的）眼睛
+  - word: imi
+    defn: (k-) 你
+    tags: [人称代词]
+  - word: imo
+    defn: （量）少
+  - word: inee
+    defn: 竟然、居然[q]
+  - word: inu
+    defn: (k-) 下
+    tags: [方向名词]
+    rels:
+      反义词: [oye]
+  - word: io
+    defn: (k-) 白天
+    tags: [时间名词]
+    rels:
+      反义词: [au]
+  - word: iparu
+    defn: (X-k) (k-)（进入[b]的）窗
+  - word: iremi
+    defn: 漂浮、悬浮
+  - word: iri
+    defn: (k-) 那个[b]
+    note: 指远离自己的事物，或者对方提到的事物。
+    tags: [指示代词]
+  - word: iru
+    defn: (k-) 这个[b]
+    node: 指靠近自己的事物，或者自己提到的事物。
+    tags: [指示代词]
+  - word: Irusu
+    defn: (k-) 梨（pyrus）
+    tags: [水果]
+    etym: 拉丁语 pyrus
+  - word: ire
+    defn: (X-k) 在（[z]的）[b]方位（内部）[q]；(X-k) 在（[z]的）内部[q]
+    tags: [方位谓词]
+  - word: iso
+    defn: (k-) 天空
+  - word: iu
+    defn: (k-) [b]之积
+    tags: [数学运算]
+  - word: iwa
+    defn: 关于[b]，[q]
+    note: 常用谓词提前式，表示主题。
+  - word: iyo
+    defn: (k-)（[b]品种的）鸟
+  - word: oda
+    defn: (k-) 打开的、开放的
+    note: = 英语 open
+  - word: odake
+    defn: 打开[b]
+    etym: kodaqa tuke
+  - word: oe
+    defn: 很[q]
+    tags: [程度谓词]
+  - word: ogina
+    defn: (X-k) (k-)（进入[b]的）门
+  - word: oha
+    defn: 因为[q]所以[b]
+    rels:
+      相对词: [uyu]
+  - word: oka
+    defn: (X-t) 是否[q]
+  - word: oku
+    defn: 取得[b]
+  - word: oma
+    defn: 虽然[q]，但是[b]
+    rels:
+      相对词: [ehu]
+  - word: omi
+    defn: (k-) 存在[b]
+    tags: [量词]
+  - word: omizia
+    defn: (k-) 不存在[b]
+    tags: [量词]
+    etym: komiza kia
+  - word: one
+    defn: (k-) 一秒；（[z]计时法的）[b]秒
+    tags: [时间名词]
+  - word: ono
+    defn: (X-k) 被[b]拥有
+    note: 表示非固有的所属关系。
+  - word: onu
+    defn: 既[q]又[q]；(k-) [b]和[b]
+    tags: [逻辑连接词]
+  - word: oo
+    defn: (k-) 东
+    tags: [方向名词]
+    rels:
+      反义词: [era]
+  - word: opeo
+    defn: (X-k) (k-) 书
+  - word: ore
+    defn: (k-) 我
+    tags: [人称代词]
+  - word: oro
+    defn: (k-) 后
+    tags: [方向名词]
+    rels:
+      反义词: [ehe]
+  - word: ota
+    defn: 发光；发出[b]；(p-) 光
+  - word: oru
+    defn: （在[b]之后，在[z]过程中）最后[q]
+    tags: [描述过程的谓词]
+  - word: oso
+    defn: （对[z]）说[b]
+  - word: Osoite
+    defn: Kosoite 语
+    etym: tosoqa tiite
+  - word: owa
+    defn: (k-) 右
+    tags: [方向名词]
+    rels:
+      反义词: [ihi]
+  - word: oya
+    defn: (X-t) 做[q]和[q]
+    tags: [逻辑连接词]
+  - word: oye
+    defn: (k-) 上
+    tags: [方向名词]
+    rels:
+      反义词: [inu]
+  - word: oza
+    defn: (X-t) 完成[q]
+    tags: [体貌谓词]
+  - word: ozu
+    defn: 制作、建造[b]
+  - word: uba
+    defn: 花费[b]（时间、金钱等）（做[q]）
+  - word: uda
+    defn: 如果[b]，那么[q]
+    rels:
+      相对词: [uhi]
+  - word: udo
+    defn: (k-) 一年；（[z]纪年法的）[b]年
+    tags: [时间名词]
+  - word: uga
+    defn: 大
+    rels:
+      反义词: [ati]
+  - word: ugata
+    defn: (k-) 恒星、太阳
+    etym: kugada kota
+  - word: uhe
+    defn: (k-) 两个[b]；(k-) 二
+    tags: [数词]
+  - word: uhi
+    defn: 如果[q]，那么[b]
+    rels:
+      相对词: [uda]
+  - word: ui
+    defn: (k-) 南
+    tags: [方向名词]
+    rels:
+      反义词: [ano]
+  - word: uki
+    defn: 喜爱[b]；喜欢做[q]
+  - word: uke
+    defn: (X-t) 使[q]变为真
+  - word: uma
+    defn: (k-) 八个[b]；(k-) 八
+    tags: [数词]
+  - word: ume
+    defn: (k-) 一个[b]；(k-) 一
+    tags: [数词]
+  - word: Umira
+    defn: (k-) 苹果（malus pumila）
+    tags: [水果]
+    etym: 拉丁语 pumila
+  - word: umo
+    defn: (k-) [b]之和
+    tags: [数学运算]
+  - word: umu
+    defn: (k-) 一个月；（[z]历法的）[b]月
+  - word: umuta
+    defn: (k-) 月球；(k-)（[b]行星的）卫星
+    etym: umu + ota
+  - word: una
+    defn: (k-) 零个[b]；(k-) 零
+    tags: [数词]
+  - word: uno
+    defn: 全部[b]
+    tags: [量词]
+  - word: unu
+    defn: (k-) 五个[b]；(k-) 五
+    tags: [数词]
+  - word: uo
+    defn: （在[b]之前，在[z]过程中）首先[q]
+    tags: [描述过程的谓词]
+  - word: ura
+    defn: (k-) 七个[b]；(k-) 七
+    tags: [数词]
+  - word: uro
+    defn: (X-k) 在（[z]的）[b]方向（不相邻）[q]
+    tags: [方位谓词]
+  - word: uru
+    defn: (k-) 九个[b]；(k-) 九
+    tags: [数词]
+  - word: uwe
+    defn: (k-) 四个[b]；(k-) 四
+    tags: [数词]
+  - word: uwi
+    defn: (k-) 三个[b]；(k-) 三
+    tags: [数词]
+  - word: uye
+    defn: (k-) 六个[b]；(k-) 六
+    tags: [数词]
+  - word: uyo
+    defn: (k-) 一分钟；（[z]计时法的）[b]分
+    tags: [时间名词]
+  - word: uyu
+    defn: 因为[b]所以[q]
+    rels:
+      相对词: [oha]
+  - word: uzi
+    defn: (X-k) (k-) 多个[b]
+  - word: uzo
+    defn: 做[q]之一；(k-) [b]之一
+examples:
+  - text: kaoza kegoda kisoza tiren, kumutaga totaqa timappaqa.
+    trsl: 夜空中，月亮发着光。
+  - text: kkaba tokuqi kemusizi tirekkada Kumira
+    trsl: 树林里摘的苹果
+  - text: kimiqa kama
+    trsl: 您
+  - text: koregi karebi tapuqa tehopatan.
+    trsl: 我昨天打了他（一下）。
+  - text: koregi kimizi korobi turon.
+    trsl: 我在你的后方。
+  - text: koreba kena
+    trsl: 我自己
+  - text: koreba zi
+    trsl: 我们
+  - text: kugatagi kidikibi totan.
+    trsl: 太阳发出明亮的光。
+  - text: kugataga totaqa timan.
+    trsl: 太阳发着光。
+  - text: kurubi kurubi kiuga tumamen.
+    trsl: 九九八十一。

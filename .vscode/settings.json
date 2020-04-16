@@ -1,0 +1,13 @@
+{
+  "search.exclude": {
+    "dist*": true,
+    "toolchain/out": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "yaml.schemas": {
+    "build/dict.schema.json": "contents/dict.yaml"
+  }
+}

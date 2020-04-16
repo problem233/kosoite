@@ -1,0 +1,38 @@
+{
+  "name": "domma",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "genJSONSchemas": "node scripts/genJSONSchemas.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "html-minifier": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "mdast-util-to-string": "^1.0.8",
+    "mdast-util-toc": "^5.0.2",
+    "normalize.css": "^8.0.1",
+    "rehype-autolink-headings": "^2.0.5",
+    "rehype-katex": "^2.0.0",
+    "rehype-raw": "^4.0.1",
+    "rehype-slug": "^2.0.3",
+    "rehype-stringify": "^6.0.1",
+    "remark-math": "^2.0.0",
+    "remark-parse": "^7.0.2",
+    "remark-rehype": "^5.0.0",
+    "rxjs": "^6.5.4",
+    "st": "^2.0.0",
+    "string-natural-compare": "^3.0.1",
+    "to-vfile": "^6.0.0",
+    "typescript": "^3.8.2",
+    "unified": "^8.4.2"
+  },
+  "devDependencies": {
+    "@types/html-minifier": "^3.5.3",
+    "@types/js-yaml": "^3.12.2",
+    "@types/node": "^12.12.28",
+    "typescript-json-schema": "^0.42.0"
+  },
+  "browserslist": "Firefox ESR, >= 2%"
+}
