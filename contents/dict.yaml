@@ -148,11 +148,11 @@ dict:
   - word: iri
     defn: (k-) 那个[b]
     note: 指远离自己的事物，或者对方提到的事物。
-    tags: [指示代词]
+    tags: [指示谓词]
   - word: iru
     defn: (k-) 这个[b]
     node: 指靠近自己的事物，或者自己提到的事物。
-    tags: [指示代词]
+    tags: [指示谓词]
   - word: Irusu
     defn: (k-) 梨（pyrus）
     tags: [水果]
@@ -268,6 +268,8 @@ dict:
   - word: ugata
     defn: (k-) 恒星、太阳
     etym: kugada kota
+  - word: ugosu
+    defn: (k-)（[b]品种的）水果
   - word: uhe
     defn: (k-) 两个[b]；(k-) 二
     tags: [数词]
@@ -314,6 +316,8 @@ dict:
   - word: uo
     defn: （在[b]之前，在[z]过程中）首先[q]
     tags: [描述过程的谓词]
+  - word: uqi
+    defn: 死亡、处于非生物的状态；在[z]意义上死了
   - word: ura
     defn: (k-) 七个[b]；(k-) 七
     tags: [数词]
