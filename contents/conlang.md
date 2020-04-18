@@ -52,7 +52,7 @@ Kosoite 采用假名拼写，/ŋ/ 用加半浊点的か行假名「か゚き゚�
 
 > | K | uro | kka | ppa | qa |
 > | -:|:---:|:--- |:--- |:-- |
-> | <sub>主语 | 在……方向 | <sub>λa | <sub>谓词提前 | <sub>补语 |
+> | <sub>主语- | 在……方向 | <sub>-λa | <sub>-谓词提前 | <sub>-补语 |
 > | 词首 | 词干 | lambda 词缀 | 后词缀 | 词尾 |
 
 ### 词干
@@ -248,6 +248,8 @@ Lambda 词缀是对词首功能的拓展，类似于自然语言中[保留代词
 
 这些就是目前 Kosoite 语的全部核心语法了，以后可能会继续加入新的语法，但目前的语法已经完全足够日常表达。你可能想问：为什么一般语言的语法范畴它几乎全都没有？这是因为这些语法全都可以用谓词来实现。
 
+<!-- ## 构词法 -->
+
 ## 基础谓词
 
 这一章将会讲解 Kosoite 如何用谓词表达其他语言中常见的语法范畴。
@@ -359,7 +361,7 @@ Kosoite 的所属关系分为[固有和非固有（inherent and non-inherent）]
 
 > **うの**：全部[b]\
 > **おみ**：(k-) 存在[b]\
-> **おみじあ**：(k-) 不存在[b]
+> **おみしあ**：(k-) 不存在[b]
 >
 > うごす：(k-)（[b]品种的）水果
 >
@@ -369,18 +371,24 @@ Kosoite 的所属关系分为[固有和非固有（inherent and non-inherent）]
 > くごすば&ensp;**こみ**が&ensp;クミラん。\
 > 有些水果是苹果。
 >
-> クミラば&ensp;**こみじあ**が&ensp;くごすか゚&ensp;ちあん。\
+> クミラば&ensp;**こみしあ**が&ensp;くごすか゚&ensp;ちあん。\
 > 没有苹果不是水果。
 
 当没有量词时，名词性参数默认隐含着 ι 算子，相当于英语的「the」。可以用下一节的指示谓词来强调这个 ι 算子。
 
-## 资源
-
-- [网站](https://problem233.github.io/kosoite/)
-- [词典](https://github.com/problem233/kosoite/blob/master/contents/dict.yaml)
-
 <!--
 ### 疑问
+
+Kosoite 提供了一整套疑问词，它们都是「あに」的合成词。
+
+> あに：做什么；(k-) 什么
+> あにふ：(k-) 谁
+> あにす：(k-)（[b]中的）哪个
+> あにこ：在什么时候[q]
+> あにら：如何[q]
+> あにれ：在哪里[q]
+> あにゆ：为什么[q]
+
 ### 被动
 ### 时态与体貌
 ### 程度（很、更、最）
@@ -390,6 +398,16 @@ Kosoite 的所属关系分为[固有和非固有（inherent and non-inherent）]
 
 <!-- か゚き゚く゚け゚こ゚/カ゚キ゚ク゚ケ゚コ゚ 𛀁/エ ゐ/ヰ ゑ/ヱ え/丄-->
 <!-- http://en.bosimedia.com/wiki/Grammatical_category -->
+
+<!--
+## 例文
+### 苹果梗
+-->
+
+## 资源
+
+- [网站](https://problem233.github.io/kosoite/)
+- [词典](https://github.com/problem233/kosoite/blob/master/contents/dict.yaml)
 
 <style>
 html body h1, html body h2, html body h3,

@@ -27,6 +27,31 @@ dict:
     tags: [数学运算]
   - word: ani
     defn: 做什么；(k-) 什么
+    tags: [疑问词]
+  - word: anihu
+    defn: (k-) 谁
+    etym: kanida kihu
+    tags: [疑问词]
+  - word: aniko
+    defn: 在什么时候[q]
+    etym: kaniza tego
+    tags: [疑问词]
+  - word: anira
+    defn: 如何[q]
+    etym: kaniza tira
+    tags: [疑问词]
+  - word: anire
+    defn: 在哪里[q]
+    etym: kaniza tire
+    tags: [疑问词]
+  - word: anisu
+    defn: (k-)（[b]中的）哪个
+    etym: kanida kesu
+    tags: [疑问词]
+  - word: aniyu
+    defn: 为什么[q]
+    etym: kaniba tuyu
+    tags: [疑问词]
   - word: ano
     defn: (k-) 北
     tags: [方向名词]
@@ -94,6 +119,8 @@ dict:
     tags: [方向名词]
     rels:
       反义词: [oo]
+  - word: esu
+    defn: 属于[b]；包含于[b]
   - word: eto
     defn: (X-t) 和[b]一起[q]
   - word: eyo
@@ -157,6 +184,8 @@ dict:
       反义词: [au]
   - word: iparu
     defn: (X-k) (k-)（进入[b]的）窗
+  - word: ira
+    defn: 用[b]工具通过[z]方法[q]
   - word: iremi
     defn: 漂浮、悬浮
   - word: iri
@@ -210,7 +239,7 @@ dict:
   - word: omi
     defn: (k-) 存在[b]
     tags: [量词]
-  - word: omizia
+  - word: omisia
     defn: (k-) 不存在[b]
     tags: [量词]
     etym: komiza kia
