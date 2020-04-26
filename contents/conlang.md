@@ -229,7 +229,7 @@ Kosoite 的这种语法设计会导致语序很死板，谓词前置标记就是
 
 ### Lambda 词缀
 
-Lambda 词缀是对词首功能的拓展，类似于自然语言中[保留代词的从句](https://en.wikipedia.org/wiki-Relative%20clause#Pronoun_retention_type)。例如：
+Lambda 词缀是对词首功能的拓展，类似于自然语言中[保留代词的从句](https://en.wikipedia.org/wiki/Relative%20clause#Pronoun_retention_type)。例如：
 
 > | **っか**ば | とくき゚ | けむしじ | **ち**れ**っか**だ | クミラ |
 > |:-|:-|:-|:-|:-|
@@ -435,7 +435,7 @@ blockquote table tr td:last-child,
 blockquote table tr th {
   border-bottom: 1px black solid;
 }
-@media print {
+@media print, (width: 736px) and (height: 700px) {
   html body blockquote {
     color: #4E6A6A;
   }
