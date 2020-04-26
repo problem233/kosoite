@@ -3,6 +3,8 @@ export interface Dict {
   dict?: Array<{
     /** 读音 */
     word: string
+    /** 词类 */
+    part?: "general" | "auxiliary" | "non-inherent" | "inherent"
     /** 含义 */
     defn: string
     /** 说明 */

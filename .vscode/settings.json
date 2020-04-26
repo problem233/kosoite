@@ -8,6 +8,6 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "yaml.schemas": {
-    "build/dict.schema.json": "contents/dict.yaml"
+    "build/dict.schema.json": ["contents/dict.yaml", "contents-new/dict.yaml"]
   }
 }

@@ -1,26 +1,33 @@
 #!/bin/node
 
-const randSel = arr => arr[Math.floor(Math.random() * arr.length)]
+/**
+ * 梯形逆累积分布函数
+ * 
+ * ```
+ * pdf = (2 - 2 * a) * x + a
+ * cdf = ((1 - a) * x + a) * x
+ * 0 <= a <= 2
+ * 0 <= x <= 1
+ * ```
+ */
+const icdf = a => x => (a - Math.sqrt(a * a + 4 * (1 - a) * x)) / (2 * (a - 1))
+const randSel = arr => arr[Math.floor(icdf(2)(Math.random()) * arr.length)]
 
 const V = 'aiueo'
-const I = 'ptsk'
-const J = 'bdzgq'
-const K = Array.from('mwnryh').concat('')
-const G = [...J, ...K]
-const H = [...I, ...K]
-const C = [...I, ...J, ...K]
+const C = [
+  '', ...'kstnhmyrw',
+  ...[...'hsrkzbptdgnm'].map(s => s + 'y'),
+  ...'gzdbp'
+]
 
 const randFill = str => str
-  .replace(/W1/g, 'VCV')
-  .replace(/W2/g, 'VCVHV')
-  .replace(/X1/g, 'GV')
-  .replace(/X2/g, 'GVKV')
+  .replace(/W1/g, 'CVCi')
+  .replace(/W2/g, 'CVCVCi')
   .replace(/V/g, () => randSel(V))
-  .replace(/I/g, () => randSel(I))
-  .replace(/J/g, () => randSel(J))
-  .replace(/K/g, () => randSel(K))
-  .replace(/G/g, () => randSel(G))
-  .replace(/H/g, () => randSel(H))
   .replace(/C/g, () => randSel(C))
+  .replace(/^.*y[ie].*$/, () => randFill(str))
+  .replace(/^.*w[iue].*$/, () => randFill(str))
+  .replace(/^.*d[iy].*$/, () => randFill(str))
+  .replace(/^.*(ga|wo|ni|no|te).*$/, () => randFill(str))
 
 console.log(randFill(process.argv[2]))
